@@ -1,0 +1,102 @@
+{
+  "graph": {
+    "a": [
+      "b",
+      "e",
+      "f"
+    ],
+    "b": [
+      "a",
+      "c",
+      "f"
+    ],
+    "c": [
+      "b",
+      "d",
+      "f",
+      "g"
+    ],
+    "d": [
+      "c",
+      "h"
+    ],
+    "e": [
+      "a",
+      "i",
+      "j"
+    ],
+    "f": [
+      "a",
+      "b",
+      "c"
+    ],
+    "g": [
+      "c",
+      "h"
+    ],
+    "h": [
+      "d",
+      "g"
+    ],
+    "i": [
+      "e",
+      "j"
+    ],
+    "j": [
+      "e",
+      "i"
+    ]
+  },
+  "vertices": {
+    "a": {
+      "data": "a",
+      "in_degree": 3,
+      "out_degree": 3
+    },
+    "b": {
+      "data": "b",
+      "in_degree": 3,
+      "out_degree": 3
+    },
+    "c": {
+      "data": "c",
+      "in_degree": 4,
+      "out_degree": 4
+    },
+    "d": {
+      "data": "d",
+      "in_degree": 2,
+      "out_degree": 2
+    },
+    "e": {
+      "data": "e",
+      "in_degree": 3,
+      "out_degree": 3
+    },
+    "f": {
+      "data": "f",
+      "in_degree": 3,
+      "out_degree": 3
+    },
+    "g": {
+      "data": "g",
+      "in_degree": 2,
+      "out_degree": 2
+    },
+    "h": {
+      "data": "h",
+      "in_degree": 2,
+      "out_degree": 2
+    },
+    "i": {
+      "data": "i",
+      "in_degree": 2,
+      "out_degree": 2
+    },
+    "j": {
+      "data": "j",
+      "in_degree": 2,
+      "out_degree": 2
+    }
+  }
+}
